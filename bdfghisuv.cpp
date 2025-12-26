@@ -10,6 +10,7 @@ struct Config
   static const char* ssid;
   static const char* password;
   static const char* klipperHost;
+  static const char* klipperHoets;
   static const int klipperPort = 7125;
   static const unsigned long updateInterval = 3000;
   static const unsigned long wifiTimeout = 15000;
